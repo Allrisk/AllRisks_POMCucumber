@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "To validate Base Rate",
+        "description": "",
+        "id": "allrisks-application-test;to-validate-base-rate;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14606767211,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens browser",
+            "match": {
+              "location": "LoginSD.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7879301262,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter \"allrisksunderwriter\" and \"welcome1\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "allrisksunderwriter",
+                  "offset": 12
+                },
+                {
+                  "val": "welcome1",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginSD.user_enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93651583,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on Homeowner / Dwelling / Condo Quote button",
+            "match": {
+              "location": "HomePageSD.click_on_Homeowner_Dwelling_Condo_Quote_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22363203923,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the \"450076\" in Agency Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "450076",
+                  "offset": 11
+                }
+              ],
+              "location": "AgencyPageSD.enter_the_in_Agency_Page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10570926129,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the \"TestPOMsampleCucumber\" Then \"123 main street MD 21632\" And \"1234567891\" in insured information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestPOMsampleCucumber",
+                  "offset": 11
+                },
+                {
+                  "val": "123 main street MD 21632",
+                  "offset": 40
+                },
+                {
+                  "val": "1234567891",
+                  "offset": 71
+                }
+              ],
+              "location": "InsuredPageSD.enter_the_and_and_in_insured_information(String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28238737678,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on Riskinsured address same",
+            "match": {
+              "location": "LocatioPageSD.click_on_Riskinsured_address_same()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113576,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the \"1\" Then \"\u003cnumber_of_stories\u003e\" Then \"\u003csq_feet\u003e\" Then \"\u003cyear_built\u003e\" Then \"\u003cnumber_loss\u003e\" in location page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 11
+                },
+                {
+                  "val": "\u003cnumber_of_stories\u003e",
+                  "offset": 20
+                },
+                {
+                  "val": "\u003csq_feet\u003e",
+                  "offset": 47
+                },
+                {
+                  "val": "\u003cyear_built\u003e",
+                  "offset": 64
+                },
+                {
+                  "val": "\u003cnumber_loss\u003e",
+                  "offset": 84
+                }
+              ],
+              "location": "LocatioPageSD.enter_the_Then_Then_Then_Then_in_location_page(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AllRisks Application Test",
+    "description": "",
+    "id": "allrisks-application-test",
+    "keyword": "Feature",
+    "uri": "src/main/java/FeatureFiles/BaseRateCheck.Feature"
+  }
+]
